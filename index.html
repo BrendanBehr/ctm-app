@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="elements/ctm-app/ctm-app.html">
+    <link rel="import" href="elements/ctm-app/ctm-login.html">
+    <link rel="import" href="elements/ctm-app/ctm-stage.html">
+    <link rel="import" href="bower_components/polymer/polymer-element.html">
+    <link rel="import" href="bower_components/iron-pages/iron-pages.html">
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0px;
+        }
+
+        #app {
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            position: absolute;
+        }
+
+        #pages {
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            position: absolute;
+        }
+
+        #login {
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            position: absolute;
+        }
+
+        #stage {
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            position: absolute;
+        }
+    </style>
+
+</head>
+
+<body>
+    <ctm-app id="app"></ctm-app>
+    <iron-pages id="pages">
+        <ctm-login id="login"></ctm-login>
+        <ctm-stage id="stage"></ctm-stage>
+    </iron-pages>
+</body>
+
+</html>

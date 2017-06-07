@@ -1,0 +1,19 @@
+{
+  "name": "stage",
+  "description": "part1",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#^2.0.0",
+    "iron-pages": "PolymerElements/iron-pages#^2.0.0"
+  }
+}

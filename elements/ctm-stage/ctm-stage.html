@@ -1,0 +1,24 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<dom-module id="ctm-stage">
+    <template>
+        <style>
+             :host {
+                display: block;
+                background-color: green;
+            }
+        </style>
+    </template>
+
+    <script>
+        // Extend Polymer.Element with MyMixin
+        class CTMStage extends Polymer.Element {
+
+            static get is() { return 'ctm-stage' }
+
+        }
+
+        // Register custom element definition using standard platform API
+        customElements.define(CTMStage.is, CTMStage);
+    </script>
+</dom-module>
